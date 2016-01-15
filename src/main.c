@@ -48,9 +48,6 @@ print_help_page (void)
   printf("The software is provided \"as is\", without warranty of any kind.\n");
 }
 
-/* Flag set by ‘--verbose’. */
-static int verbose_flag = 0;
-
 int
 main (int argc, char **argv)
 {

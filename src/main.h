@@ -30,4 +30,7 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 // Get the version string from git and Makefile
 char VERSION_STRING[22]; // "v0.0.0-g0000000-dirty"
 
+/* Flag set by ‘--verbose’. */
+static int verbose_flag = 0;
+
 #endif // MAIN_H_f4a0fefc_8585_48eb_afa5_23df23fbcb59
