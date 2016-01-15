@@ -34,7 +34,9 @@ xmalloc (size_t size)
 {
   void *v = malloc (size);
   if (v == 0)
+  {
     fprintf(stderr, "virtual memory exhausted\n");
     abort();
+  }
   return v;
 }
